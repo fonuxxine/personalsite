@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a i,
+a i:hover,
+a i:visited,
+a i:active {
+  color: #232323;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav {
+  display: flex;
+  background-color: var(--web-navy-blue);
+  justify-content: flex-end;
+  padding: 60px 0 50px 0;
+  color: #000;
+}
+
+.site-title {
+  margin-right: auto;
+  margin-left: 10vw;
+  height: 20px;
+  width: 20px;
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  margin-right: 10vw;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active {
+  text-decoration: underline;
+  color: #000;
+}
+
+.nav li:hover {
+  color: #777;
+}
+
+/* About page */
+.uni-grid {
+  margin: 0 10vw;
+}
+
+.about{
+  font-size: 150px;
+  font-weight: 200;
+}
+
+/* ------- Card ------- */
+.uni-size{
+  font-weight: 200;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.card {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.card h3{
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card h4{
+  font-weight: 400;
+  font-size: 10px;
+  color: #656262;
+}
+
+.pos-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: .5px solid #716E6E;
+  margin-right: 0;
+  padding-bottom: 20px;
+}
+
+.pos-content {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.card .pos-des {
+  display: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+}
+
+#play-arrow {
+  margin-right: 20px;
+}
+
+#heart {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 48;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 20px;
+}
+
+/* ---------Project----------- */
+.project{
+  margin-bottom: 80px;
+}
+
+.tech{
+  word-spacing: 10px;
+}
+
+.p-title {
+  display: flex;
+  align-items: center;
+}
+
+.fa{
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* ---- About ----- */
+.about-p{
+  width: 50vw;
+  font-size: 20px;
+  font-weight: 200;
+}
