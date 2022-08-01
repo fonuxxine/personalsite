@@ -1,5 +1,4 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
-import navIcon1 from './assets/Group 379.svg';
 
 export default function Navbar() {
   return (

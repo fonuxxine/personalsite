@@ -1,11 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 export function PositionCard ({ position, active = '' }) {
-    const [activeTab, setActiveTab] = useState(active)
-
-    useEffect(() => {
-        
-    })
 
     return (
         <div className="card">

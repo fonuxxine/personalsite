@@ -1,4 +1,4 @@
-import navIcon1 from '../assets/Group 379.svg';
+
 
 export default function Projects() {
     const Project = [
